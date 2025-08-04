@@ -15,7 +15,6 @@ KNN doesn't “learn” a model upfront; it stores the entire training set and d
 KNN uses distance metrics (like Euclidean), so features must be on the same scale. Otherwise, large-magnitude features (say income) drown out smaller ones (like age). Always apply StandardScaler or MinMaxScaler before training! 
 
 3. Distance metric matters
-Common choices:
 * Euclidean (L2) — default for continuous data
 * Manhattan (L1) — more robust to outliers
 * Minkowski — generalizes both
